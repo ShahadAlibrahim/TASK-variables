@@ -11,6 +11,11 @@
 
 // Part 1 answer 👇🏻 ...
 
+let fullName= "Shahad"
+let yearOfBirth= 1995
+let hobby= "coding"
+let funFact= "I'm a shopaholic"
+const image="https://static.toiimg.com/photo/msid-67586673/67586673.jpg?3918697"
 
 
 
@@ -29,9 +34,9 @@
  * You can uncomment a line by removing the // at the start
  */
 
-// const fullNameString = `My name is ${}`;
-// const yearOfBirthString =
-// const hobbyString =
+ const fullNameString = `My name is ${fullName}`;
+ const yearOfBirthString =`I am ${2021-yearOfBirth}`
+const hobbyString =`My hobby is ${hobby}`
 
 
 
@@ -44,15 +49,20 @@
 let stars = 0;
 
 function incrementBy1() {
+  
+  stars=stars+1
   // Increment stars by 1 👇🏻
 }
 function decrementBy1() {
+  stars=stars-1
   // decrement stars by 1 👇🏻
 }
 
 function incrementBy2() {
+stars=stars+2
   // Increment stars by 2 👇🏻
 }
 function decrementBy2() {
+  stars=stars-2
   // decrement stars by 2 👇🏻
 }
